@@ -14,21 +14,21 @@ const Specializing = (props) => {
     const skills = [
         {
             skillName: 'JavaScript',
-            desc: 'MERN stack Black Belt from Coding Dojo',
+            desc: 'MERN stack Black Belt from Coding Dojo.',
             value: 85,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor
         },
         {
             skillName: 'Python',
-            desc: 'Python stack Black Belt from Coding Dojo',
+            desc: 'Python stack Black Belt from Coding Dojo.',
             value: 80,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor
         },
         {
             skillName: 'Java',
-            desc: 'Java stack Black Belt from Coding Dojo',
+            desc: 'Java stack Black Belt from Coding Dojo.',
             value: 75,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor

@@ -1,5 +1,7 @@
 import React from 'react'
+import Expertise from './components/Expertise'
 import Hero from './components/Hero'
+import LatestProjects from './components/LastestProjects'
 import Specializing from './components/Specializing'
 
 /**
@@ -12,6 +14,9 @@ const App = (props) => {
     <div>
       <Hero />
       <Specializing />
+      <br></br>
+      <Expertise />
+      <LatestProjects />
     </div>
   )
 }
