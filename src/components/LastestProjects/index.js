@@ -2,8 +2,10 @@ import React from 'react'
 import Card from '../UI/Card'
 import SmallHeading from '../UI/SmallHeading'
 import MediumHeading from '../UI/MediumHeading'
-import Button from '../UI/Button'
+import githubProjects from '../../assets/social-icons'
 import Pamazon from '../../assets/projects/Pamazon.jpg'
+import Mothership from '../../assets/projects/Mothership.jpg'
+import billionaireTinder from '../../assets/projects/BillionaireTinder.jpg'
 import './style.css'
 /**
  * @author
@@ -19,17 +21,20 @@ const LatestProjects = (props) => {
                     flex: 1,
                     flexDirection: 'column',
                     justifyContent: 'center'}}>
-
-
                     <SmallHeading text= "Portfolios" />
-                    <MediumHeading text= "Latest Projects" /> 
+                    <MediumHeading style= {{ textTransform: "uppercase" }} text= "Latest Projects:" /> 
+                    <br/>
+                <p className= " mlr-10 text-center ls-1 secondaryColor" >Pamazon / Billionaire Tinder</p>
                     <br></br>
                     <div className= "mtb-10 flexRow" style= {{ justifyContent: "center"}}>
-                    <Button className= "hireLink ls-1" label= "GitHub" /> 
+                    </div>
+                    <div>
+                    <a href="www.github.com/JustonSmith"><img className=" mlr-10 text-center" style= {{ marginLeft: "155px", width: "80px"}} src={{githubProjects}} alt="github"></img></a>
                     </div>
                 </div>
                 <div className= "projectImgContainer" >
-                    <img className="imgLink" src= {Pamazon} alt= "Pamazon" />
+                    <img className="imgLink mlr-10" style={{height: "200px", width: "225px"}} src= {Pamazon} alt= "Pamazon" />
+                    <img className="imgLink mlr-10" style={{height: "200px", width: "225px"}} src= {billionaireTinder} alt="Billionaire" /> 
                 </div>
             </Card>
         </div>

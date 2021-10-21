@@ -6,9 +6,11 @@ import React from 'react'
  **/
 
 
-function MediumHeading({text}) {
+function MediumHeading({text, style}) {
     return (
-    <p className="font-25 bold-600 capitalize ls-1 text-center">{text}</p>
+    <p 
+        style={style}
+        className="font-25 bold-600 capitalize ls-1 text-center">{text}</p>
     )
 }
 

@@ -7,7 +7,7 @@ import { colors } from "../../style";
  **/
 
 const Button = (props) => {
-    return ( <a href= "#" style={{
+    return ( <a href= "www.linkedin.com/JustonSmith" style={{
         boxSizing: "border-box",
         padding: "10px 20px",
         background: props.inverse ? "transparent" : colors.primaryColor,
@@ -16,10 +16,10 @@ const Button = (props) => {
         borderRadius: "20px",
         boxShadow: props.inverse ? 'none' : "0px 10px 10px",
         border: "1px solid",
-        borderColor: props.inverse ? colors.primaryColor : "transparent",
+        borderColor: props.inverse ? colors.primaryColor : "",
         fontSize: 12,
         fontWeight: 400,
-        letterSpacing: '1px'
+        letterSpacing: '1px',
     }} 
     >
         {props.label}
