@@ -3,6 +3,7 @@ import Expertise from './components/Expertise'
 import Hero from './components/Hero'
 import LatestProjects from './components/LastestProjects'
 import Specializing from './components/Specializing'
+import Qualification from './components/Qualification'
 
 /**
  * @author
@@ -17,6 +18,7 @@ const App = (props) => {
       <br></br>
       <Expertise />
       <LatestProjects />
+      <Qualification />
     </div>
   )
 }

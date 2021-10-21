@@ -105,7 +105,7 @@ const Specializing = (props) => {
                 <br></br>
                 <hr></hr>
                 <br></br>
-                <div className="flexRow wrap justify-sb text-center mtb-10 " style={{ marginRight: "80px", padding: "20px" }}>
+                <div className="flexRow wrap justify-sb text-center mtb-10 " style={{ marginRight: "80px", padding: "20px"}}>
                     {
                         skills.map((skills, index) =>
                         
