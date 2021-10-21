@@ -147,8 +147,16 @@ a{
   transform: scale(1.1);
   border: 5px solid #16c79a;
   border-radius: 23px;
-  box-shadow: 0 0 10px 0 rgba(130, 39, 167, 0.986);
+  box-shadow: 0 0 10px 10px rgba(130, 39, 167, 0.986);
   background: none;
+}
+
+.card-border {
+  /* border: 1px solid rgba(130, 39, 167, 0.986) */
+}
+
+.imgLink:hover {
+  transform: scale(1.1);
 }
 
 

@@ -4,6 +4,8 @@ import MediumHeading from "../UI/MediumHeading";
 import SmallHeading from "../UI/SmallHeading";
 import Skill from "../UI/Skill"
 import { colors } from "../../style"
+import socialIcons from '../../assets/social-icons'
+
 /**
  * @author
  * @function Specializing
@@ -12,8 +14,10 @@ import { colors } from "../../style"
 const Specializing = (props) => {
 
     const skills = [
+        // <img style= {{ width: "80px"}} src= {socialIcons.javascript} alt="" />,
         {
             skillName: 'JavaScript',
+            logo: socialIcons.javascript,
             desc: 'MERN stack Black Belt from Coding Dojo.',
             value: 85,
             textColor: colors.primaryColor,
@@ -21,6 +25,7 @@ const Specializing = (props) => {
         },
         {
             skillName: 'Python',
+            logo: socialIcons.python,
             desc: 'Python stack Black Belt from Coding Dojo.',
             value: 80,
             textColor: colors.primaryColor,
@@ -28,6 +33,7 @@ const Specializing = (props) => {
         },
         {
             skillName: 'Java',
+            logo: socialIcons.java,
             desc: 'Java stack Black Belt from Coding Dojo.',
             value: 75,
             textColor: colors.primaryColor,
@@ -35,49 +41,56 @@ const Specializing = (props) => {
         },
         {
             skillName: 'HTML/CSS',
-            desc: 'Hands on experience using HTML/CSS/JSX',
+            logo: socialIcons.htmlcss,
+            desc: 'Hands on experience using HTML/CSS/JSX.',
             value: 75,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor
         },
         {
             skillName: 'ReactJS/NodeJS',
-            desc: 'Entry level MERN stack developer',
+            logo: socialIcons.reactjs,
+            desc: 'Entry level MERN full stack developer.',
             value: 80,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor
         },
         {
             skillName: 'Spring/Spring Tool Suite',
-            desc: 'Entry level Java/SpringTool/SQL developer',
+            logo: socialIcons.spring,
+            desc: 'Entry level Java/SpringTool/SQL developer.',
             value: 70,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor
         },
         {
             skillName: 'MongoDB',
-            desc: 'Entry level Python/MongoDB developer',
+            logo: socialIcons.mongo,
+            desc: 'Entry level Python/MongoDB developer.',
             value: 75,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor
         },
         {
             skillName: 'Flask',
-            desc: 'Entry level Python/Flask/MySQL developer',
+            logo: socialIcons.flask,
+            desc: 'Entry level Python/Flask/MySQL developer.',
             value: 70,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor
         },
         {
             skillName: 'SQL/MySQL',
-            desc: 'Hands on experience with SQL/MySQL',
+            logo: socialIcons.sql,
+            desc: 'Hands on experience with SQL/MySQL.',
             value: 75,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor
         },
         {
             skillName: 'Bootstrap/Bulma',
-            desc: 'Hands on experience with Bootstrap/Bulma',
+            logo:  socialIcons.bootstrap,
+            desc: 'Hands on experience with Bootstrap/Bulma.',
             value: 75,
             textColor: colors.primaryColor,
             pathColor: colors.secondaryColor
@@ -86,19 +99,20 @@ const Specializing = (props) => {
 
     return ( 
         <div className= "container">
-            <Card style= {{ padding: "50px"}}>
+            <Card className= "card-border" style= {{ padding: "50px"}}>
                 <SmallHeading text= "what I do" />
                 <MediumHeading text= "specializing in" />
                 <br></br>
                 <hr></hr>
                 <br></br>
-                <div className="flexRow wrap justify-sb" style={{ padding: "20px" }}>
+                <div className="flexRow wrap justify-sb text-center mtb-10 " style={{ marginRight: "80px", padding: "20px" }}>
                     {
                         skills.map((skills, index) =>
                         
                         <Skill
                         key= {index}
                         skillName={skills.skillName}
+                        logo={skills.logo}
                         desc= {skills.desc}
                         value= {skills.value}
                         textColor= {colors.primaryColor}

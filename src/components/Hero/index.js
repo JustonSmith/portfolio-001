@@ -30,7 +30,7 @@ const Hero = (props) => {
                 </div>
                 <div>
                     <div className= "meRightImgContainer">
-                        <img className="align-center" src={me} alt="Judge"/>
+                        <img className="align-center imgLink" src={me} alt="Judge"/>
                     </div>
                 </div>
             </div>

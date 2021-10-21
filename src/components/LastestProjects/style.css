@@ -1,9 +1,17 @@
 .projectImgContainer {
     width: 500px;
     overflow: hidden;
-    margin: 20px;
+    margin: 50px;
 }
 
 .projectImgContainer img {
     max-width: 100%
+}
+
+.hireLink:hover {
+    transform: scale(1.1);
+    border: 5px solid #16c79a;
+    border-radius: 23px;
+    box-shadow: 0 0 10px 10px rgba(130, 39, 167, 0.986);
+    background: none;
 }

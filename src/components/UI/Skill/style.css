@@ -3,3 +3,20 @@
     height: 95px;
     overflow: hidden;
 }
+
+.skillName {
+    align-items: center;
+}
+
+.logoLink:hover {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    margin: 0 2px;
+    transition: transform .2s ease-out, box-shadow .2s ease-out;
+    transform: scale(1.1);
+    border: 5px solid #16c79a;
+    box-shadow: 0 0 10px 10px rgba(130, 39, 167, 0.986);
+}

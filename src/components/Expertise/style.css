@@ -18,3 +18,9 @@
     object-fit: contain;
     border-radius: 20px;
 }
+
+.about-me {
+    transform: scale(1.1);
+    border: 5px solid #16c79a;
+    box-shadow: 0 0 10px 0 rgba(130, 39, 167, 0.986);
+}
