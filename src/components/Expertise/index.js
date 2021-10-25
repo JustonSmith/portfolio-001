@@ -19,7 +19,7 @@ import JSLogo2 from "../../assets/images/JSLogo2.jpg"
 const Expertise = (props) => {
     return (
         <div className= "container" style= {{ marginTop: "50px 0"  }} >
-            <div className= "rightImgMeContainer mtb-10">
+            <div className= " border rightImgMeContainer mtb-10">
                 <img className= "imgLink" src= {me} alt= "" />
             </div>
             <div className= "mtb-10">

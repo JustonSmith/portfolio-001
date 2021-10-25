@@ -18,7 +18,7 @@ const Hero = (props) => {
                     </p>
                     <hr></hr>
                     <h1 className= "textColor ls-1 mtb-10">Software Developer</h1>
-                    <p className= "font-12 mtb-10"> Full Stack Developer using <span className= "langColor"> JavaScript, Python, </span> and <span className="langColor">Java</span></p>
+                    <p className= "font-12 mtb-10"> Full Stack Developer using <span className= "langColor uppercase bold-500"> JavaScript, Python, </span> and <span className="langColor uppercase bold-500">Java</span></p>
                     <div className= "flexRow" style={{ margin: '30px 0'}}>
                         <div className= " hireLink mlr-10">
                             <Button label= "Hire Me" />

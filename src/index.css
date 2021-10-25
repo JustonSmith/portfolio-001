@@ -5,8 +5,14 @@
 }
 
 body {
-  background: url(./assets/images/portfolio-background-001.jpeg);
+  background: url(./assets/images/background-012.png);
   background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.shadow {
+  box-shadow: #323232;
 }
 
 .primaryColor {
@@ -159,5 +165,9 @@ a{
   transform: scale(1.1);
 }
 
+
+.border {
+  border-radius: 20px;
+}
 
 

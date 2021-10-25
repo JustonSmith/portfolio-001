@@ -1,0 +1,11 @@
+.referenceImgContainer {
+    width: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.referenceImgContainer img {
+    max-width: 100%;
+    object-fit:fill;
+}
+

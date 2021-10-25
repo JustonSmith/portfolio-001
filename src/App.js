@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import LatestProjects from './components/LastestProjects'
 import Specializing from './components/Specializing'
 import Qualification from './components/Qualification'
+import References from './components/References'
+
 
 /**
  * @author
@@ -13,12 +15,15 @@ import Qualification from './components/Qualification'
 const App = (props) => {
   return(
     <div>
+      <br/>
+      <hr/>
       <Hero />
       <Specializing />
       <br></br>
       <Expertise />
       <LatestProjects />
       <Qualification />
+      <References />
     </div>
   )
 }
