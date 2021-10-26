@@ -10,6 +10,7 @@ import "./style.css";
 
 const Hero = (props) => {
     return (
+        <div>
         <div className= "container" style= {{marginTop: '70px'}}>
             <div className= "flexRow justify-sb align-center ">
                 <div>
@@ -34,6 +35,7 @@ const Hero = (props) => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         )
     }

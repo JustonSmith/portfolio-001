@@ -26,10 +26,10 @@ const Expertise = (props) => {
                 <SmallHeading text= "About Me" />
                 <MediumHeading text=" Special Skills" />
             </div>
-            <Card className= "m-auto card-border" style= {{ padding: "30px", width: "320px", margin: "100px auto" }}>
+            <Card className= "m-auto card-border" style= {{ padding: "30px", width: "500px", margin: "100px auto", marginLeft: "500px", marginBottom: "100px" }}>
                 <div className= "flexRow align-center">
                     <div style= {{ width: "100px", height: "100px" }}>
-                        <img className= "mtb-10 mlr-10" style= {{ width: "80px", padding: "10px"}} src= { JSLogo2 } alt="" />
+                        <img className= "mtb-10 mlr-10 imgLink" style= {{ width: "90px", padding: "10px"}} src= { JSLogo2 } alt="" />
                         {/* <CircularProgressbar
                             value= {percentage}
                             text= {`${percentage}%`}
@@ -39,7 +39,7 @@ const Expertise = (props) => {
                             })}
                         /> */}
                     </div>
-                    <h2 className=" mlr-10 textColor ls-1">Juston Smith</h2>
+                    <h2 className=" mlr-10 secondaryColor ls-1">Juston Smith</h2>
                 </div>
                 <p className= " textColor mtb-10 font-16 align-center" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </Card>

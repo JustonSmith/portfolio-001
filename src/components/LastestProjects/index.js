@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../UI/Card'
 import SmallHeading from '../UI/SmallHeading'
 import MediumHeading from '../UI/MediumHeading'
-import githubProject from '../../assets/social-icons'
+import githubProjects from '../../assets/social-icons/githubprojects.png'
 import Pamazon from '../../assets/projects/Pamazon.jpg'
 import Mothership from '../../assets/projects/Mothership.jpg'
 import billionaireTinder from '../../assets/projects/BillionaireTinder.jpg'
@@ -15,7 +15,7 @@ import './style.css'
 
 const LatestProjects = (props) => {
     return (
-        <div className= "container" style= {{ marginTop: '50px', marginBottom: '10px' }} >
+        <div className= "container mtb-10" style= {{ marginTop: '70px', marginBottom: '50px' }} >
             <Card className= "flexRow align-center justify-sb card-border">
                 <div style= {{ 
                     display: 'flex',
@@ -30,7 +30,7 @@ const LatestProjects = (props) => {
                     <div className= "mtb-10 flexRow" style= {{ justifyContent: "center"}}>
                     </div>
                     <div>
-                    <a href="www.github.com/JustonSmith"><img className=" mlr-10 text-center" style= {{ marginLeft: "155px", width: "80px"}} src={{githubProject}} alt="github"></img></a>
+                    <a href="www.github.com/JustonSmith"><img className=" mlr-10 text-center" style= {{ marginLeft: "155px", width: "80px"}} src={{githubProjects}} alt="github"></img></a>
                     </div>
                 </div>
                 <div className= "projectImgContainer" >
@@ -52,7 +52,7 @@ const LatestProjects = (props) => {
                     <div className= "mtb-10 flexRow" style= {{ justifyContent: "center"}}>
                     </div>
                     <div>
-                    <a href="www.github.com/JustonSmith"><img className=" mlr-10 text-center" style= {{ marginLeft: "155px", width: "100px"}} src={{githubProject}} alt="github"></img></a>
+                        <a href="www.github.com/JustonSmith"><img className=" mlr-10 text-center" style= {{ marginLeft: "155px", width: "100px"}} src={{githubProjects}} alt="github"></img></a>
                     </div>
                 </div>
                 <div className= "projectImgContainer" >

@@ -14,7 +14,7 @@ import "./style.css";
 
 const Qualification = (props) => {
     return (
-        <div className= "container" style= {{ padding: "50px 0 "}}>
+        <div className= "container" style= {{ padding: "50px 0", marginBottom: "50px"}}>
             <SmallHeading text= {"Education"} />
             <MediumHeading text= {"Qualifications"} />
             <br/>

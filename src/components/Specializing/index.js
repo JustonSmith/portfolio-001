@@ -99,13 +99,12 @@ const Specializing = (props) => {
 
     return ( 
         <div className= "container">
-            <Card className= "card-border border" style= {{ padding: "50px"}}>
+            <Card className= "card-border border" style= {{ padding: "20px", marginBottom: "50px"}}>
                 <SmallHeading text= "what I do" />
                 <MediumHeading text= "specializing in" />
                 <br></br>
-                <hr></hr>
                 <br></br>
-                <div className="flexRow wrap justify-sb text-center mtb-10" style={{ marginRight: "80px", padding: "20px"}}>
+                <div className="flexRow wrap justify-sb text-center" style={{ marginRight: "80px", padding: "10px"}}>
                     {
                         skills.map((skills, index) =>
                         

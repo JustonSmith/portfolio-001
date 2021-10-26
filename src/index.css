@@ -170,4 +170,12 @@ a{
   border-radius: 20px;
 }
 
+.menu {
+  text-transform: uppercase;
+}
+
+.menuLink:hover {
+  transform: scale(1.1);
+}
+
 

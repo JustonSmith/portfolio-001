@@ -6,6 +6,19 @@
 
 .referenceImgContainer img {
     max-width: 100%;
-    object-fit:fill;
+    object-fit: contain;
+}
+
+.profileImgContainer {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius:50% ;
+}
+
+.profileImgContainer img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
