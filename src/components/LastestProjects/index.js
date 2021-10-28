@@ -15,7 +15,7 @@ import './style.css'
 
 const LatestProjects = (props) => {
     return (
-        <div className= "container mtb-10" style= {{ marginTop: '70px', marginBottom: '50px' }} >
+        <div className= "container mtb-10" style= {{ marginTop: '30px', marginBottom: '50px' }} >
             <Card className= "flexRow align-center justify-sb card-border">
                 <div style= {{ 
                     display: 'flex',

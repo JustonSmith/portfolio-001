@@ -20,7 +20,7 @@ const Qualification = (props) => {
             <br/>
             <div className= "flexRow align-center justify-sb">
                 <div className= "meLeftContainer">
-                    <img className= "border" src={me} alt="me"></img>
+                    <img className= "border imgLink" src={me} alt="me"></img>
                 <div 
                     style= {{
                         background: "none",
@@ -63,6 +63,7 @@ const Qualification = (props) => {
                             />
                     </div>
                 </div>
+                <br></br>
             </div>
             )
         }

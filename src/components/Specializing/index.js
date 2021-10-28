@@ -118,9 +118,10 @@ const Specializing = (props) => {
                         pathColor= {skills.pathColor}
                         /> )
                     }
-
                 </div>
             </Card>
+            <br></br>
+            <br></br>
         </div>
     )
 };

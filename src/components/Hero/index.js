@@ -12,7 +12,7 @@ const Hero = (props) => {
     return (
         <div>
         <div className= "container" style= {{marginTop: '70px'}}>
-            <div className= "flexRow justify-sb align-center ">
+            <div className= "flexRow flexCol   justify-sb align-center ">
                 <div>
                     <p className= "uppercase bold-500 textColor ls-1 mtb-10"> 
                         <span className= "primaryColor font-25"> Hello, </span> My name is <span>Juston Smith:</span>

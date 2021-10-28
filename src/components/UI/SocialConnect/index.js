@@ -10,8 +10,8 @@ import "./style.css"
  **/
 const SocialConnect = (props) => {
     return (
-        <div className= "socialConnect">
-            <span className="ls-1">Connect with me : </span>
+        <div className= "socialConnect mtb-10" style={props.style}>
+            <span className="ls-1 primaryColor">Connect with me : </span>
             <a className= "socialLink mlr-10" href= "www.linkedin.com/justonsmith">
                 <img src= {socialIcons.linkedin} alt= "linkedin"/>
             </a>

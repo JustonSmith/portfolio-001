@@ -18,15 +18,17 @@ import JSLogo2 from "../../assets/images/JSLogo2.jpg"
 
 const Expertise = (props) => {
     return (
-        <div className= "container" style= {{ marginTop: "50px 0"  }} >
+        <div className= "container" style= {{ marginTop: "75px 0,", padding: "50px 0"  }} >
             <div className= " border rightImgMeContainer mtb-10">
-                <img className= "imgLink" src= {me} alt= "" />
+                <img className= "imgLink rightImgMeContainer" src= {me} alt= "" />
+                <br/>
+                <SocialConnect className="mtb-10" style= {{ position: "absolute", bottom: "0" }} />
             </div>
             <div className= "mtb-10">
                 <SmallHeading text= "About Me" />
                 <MediumHeading text=" Special Skills" />
             </div>
-            <Card className= "m-auto card-border" style= {{ padding: "30px", width: "500px", margin: "100px auto", marginLeft: "500px", marginBottom: "100px" }}>
+            <Card className= "m-auto card-border" style= {{ padding: "30px", width: "500px", margin: "100px auto", marginLeft: "500px", marginBottom: "100px"  }}>
                 <div className= "flexRow align-center">
                     <div style= {{ width: "100px", height: "100px" }}>
                         <img className= "mtb-10 mlr-10 imgLink" style= {{ width: "90px", padding: "10px"}} src= { JSLogo2 } alt="" />
@@ -44,7 +46,7 @@ const Expertise = (props) => {
                 <p className= " textColor mtb-10 font-16 align-center" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </Card>
             
-            <SocialConnect />
+            
         </div>
     )
 }
