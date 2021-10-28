@@ -99,7 +99,7 @@ const Specializing = (props) => {
 
     return ( 
         <div className= "container">
-            <Card className= "card-border border" style= {{ padding: "20px", marginBottom: "50px"}}>
+            <Card className= "card-border border" style= {{ padding: "20px", marginBottom: "50px"}} data-aos= "fade-up">
                 <SmallHeading text= "what I do" />
                 <MediumHeading text= "specializing in" />
                 <br></br>

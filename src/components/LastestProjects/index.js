@@ -2,12 +2,15 @@ import React from 'react'
 import Card from '../UI/Card'
 import SmallHeading from '../UI/SmallHeading'
 import MediumHeading from '../UI/MediumHeading'
-import githubProjects from '../../assets/social-icons/githubprojects.png'
 import Pamazon from '../../assets/projects/Pamazon.jpg'
 import Mothership from '../../assets/projects/Mothership.jpg'
 import billionaireTinder from '../../assets/projects/BillionaireTinder.jpg'
 import JackieDaytona from '../../assets/projects/JackieDaytona.jpeg'
 import './style.css'
+import Button from '../UI/Button'
+
+
+
 /**
  * @author
  * @function LatestProjects
@@ -15,8 +18,8 @@ import './style.css'
 
 const LatestProjects = (props) => {
     return (
-        <div className= "container mtb-10" style= {{ marginTop: '30px', marginBottom: '50px' }} >
-            <Card className= "flexRow align-center justify-sb card-border">
+        <div className= "container mtb-10" style= {{ marginTop: '30px', marginBottom: '50px' }} data-aos= "zoom-in-up" >
+            <Card className= "flexRow flexCol align-center justify-sb card-border">
                 <div style= {{ 
                     display: 'flex',
                     flex: 1,
@@ -29,8 +32,8 @@ const LatestProjects = (props) => {
                     <br></br>
                     <div className= "mtb-10 flexRow" style= {{ justifyContent: "center"}}>
                     </div>
-                    <div>
-                    <a href="www.github.com/JustonSmith"><img className=" mlr-10 text-center" style= {{ marginLeft: "155px", width: "80px"}} src={{githubProjects}} alt="github"></img></a>
+                    <div className= "mtb-10 flexRow imgLink" style= {{justifyContent: "center"}} >
+                    <Button label="github"></Button>
                     </div>
                 </div>
                 <div className= "projectImgContainer" >
@@ -39,7 +42,7 @@ const LatestProjects = (props) => {
                 </div>
             </Card>
             <br/>
-            <Card className= "flexRow align-center justify-sb card-border">
+            <Card className= "flexRow flexCol align-center justify-sb card-border">
                 <div style= {{ 
                     display: 'flex',
                     flex: 1,
@@ -51,8 +54,8 @@ const LatestProjects = (props) => {
                     <br></br>
                     <div className= "mtb-10 flexRow" style= {{ justifyContent: "center"}}>
                     </div>
-                    <div>
-                        <a href="www.github.com/JustonSmith"><img className=" mlr-10 text-center" style= {{ marginLeft: "155px", width: "100px"}} src={{githubProjects}} alt="github"></img></a>
+                    <div className= "mtb-10 imgLink flexRow" style= {{justifyContent: "center"}} >
+                    <Button label="github"></Button>
                     </div>
                 </div>
                 <div className= "projectImgContainer" >
@@ -60,6 +63,7 @@ const LatestProjects = (props) => {
                     <a href="#"><img className="imgLink mlr-10" style={{height: "200px", width: "225px"}} src= {JackieDaytona} alt="Billionaire" /></a>
                 </div>
             </Card>
+            <br></br>
         </div>
         
     )

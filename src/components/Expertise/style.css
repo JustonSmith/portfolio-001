@@ -23,3 +23,9 @@
     border: 5px solid #16c79a;
     box-shadow: 0 0 10px 0 rgba(130, 39, 167, 0.986);
 }
+
+@media screen and (max-width: 768px) {
+    .rightImgMeContainer {
+        display: none; 
+    }
+}

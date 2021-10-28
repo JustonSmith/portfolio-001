@@ -1,22 +1,13 @@
 import React from 'react'
-import SocialConnect from '../UI/SocialConnect'
-import Card from '../UI/Card'
 import './style.css'
 
 const Footer = (props) => {
     return (
         <div className="container">
             <div>
-
             </div>
-            <div style= {{ margin: "50px 0", padding: "10px"}}>
-        <SocialConnect />
+            <div className= " align-center justify-sb" style= {{ margin: "50px 0", padding: "10px", justifyContent: "center"}}>
             <div style= {{marginLeft: "676px", marginTop: "-45px"}}>
-                <Card className= " font-25 primaryColor flexRow justify-sb ls-1" style= {{width: "400px"}}>
-                    <div>
-                        <a className=" font-25 primaryColor flexRow justify-sb ls-1 hireLink" href= "#" >JustonRSmith@gmail.com</a>
-                    </div>
-                </Card>
             </div>
             </div>
             <div>

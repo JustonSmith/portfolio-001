@@ -18,8 +18,8 @@ const Qualification = (props) => {
             <SmallHeading text= {"Education"} />
             <MediumHeading text= {"Qualifications"} />
             <br/>
-            <div className= "flexRow align-center justify-sb">
-                <div className= "meLeftContainer">
+            <div className= "flexRow flexCol  align-center justify-sb">
+                <div data-aos= "fade-up-right" className= "meLeftContainer">
                     <img className= "border imgLink" src={me} alt="me"></img>
                 <div 
                     style= {{
@@ -41,7 +41,7 @@ const Qualification = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div style= {{ marginBottom: "80px", marginLeft: "30px"}}  className= "border">
+                    <div data-aos= "fade-up-left" style= {{ marginBottom: "80px", marginLeft: "30px"}}  className= "border">
                         <div style= {{}}> 
                         <Tile 
                             title= "- Coding Dojo -"
